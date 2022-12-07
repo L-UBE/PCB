@@ -2442,10 +2442,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="U$3" library="ce-capstone" deviceset="SML-P12VTT86" device="" value="LED_R"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
-<part name="R2" library="RC0805FR-131KL" deviceset="RC0805FR-131KL" device="" value="1K"/>
-<part name="R3" library="RC0805FR-131KL" deviceset="RC0805FR-131KL" device="" value="1K"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
+<part name="R5" library="RC0805JR-0710KL" deviceset="RC0805JR-0710KL" device="" value="10K"/>
+<part name="R11" library="RC0805JR-0710KL" deviceset="RC0805JR-0710KL" device="" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -2651,14 +2651,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="143.51" y="-45.085" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="22.86" y="-43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.05" y="-31.75" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="-39.37" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R3" gate="G$1" x="30.48" y="-43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.67" y="-31.75" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="26.67" y="-39.37" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
 <instance part="JP3" gate="A" x="149.86" y="-15.24" smashed="yes">
 <attribute name="NAME" x="143.51" y="-6.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="-22.86" size="1.778" layer="96"/>
@@ -2666,6 +2658,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="JP4" gate="A" x="149.86" y="-30.48" smashed="yes">
 <attribute name="NAME" x="143.51" y="-24.765" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="-38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="22.86" y="-43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="-39.37" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="-31.75" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="R11" gate="G$1" x="30.48" y="-43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.67" y="-39.37" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="26.67" y="-31.75" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -3267,14 +3267,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <label x="127" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="-43.18" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-45.72" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="30.48" y="-45.72"/>
 <label x="30.48" y="-50.8" size="1.778" layer="95" rot="R90"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -3420,7 +3420,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="IC1" gate="G$1" pin="PA3"/>
 <wire x1="22.86" y1="-7.62" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
 <label x="22.86" y="-25.4" size="1.778" layer="95" rot="R90"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="6"/>
@@ -3433,7 +3433,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="IC1" gate="G$1" pin="PA4"/>
 <wire x1="30.48" y1="-7.62" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
 <label x="30.48" y="-25.4" size="1.778" layer="95" rot="R90"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="8"/>

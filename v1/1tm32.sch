@@ -3095,6 +3095,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <junction x="-91.44" y="-50.8"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="-109.22" y1="22.86" x2="-91.44" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-91.44" y="-60.96"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>

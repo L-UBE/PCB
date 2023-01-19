@@ -2723,73 +2723,75 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </deviceset>
 </devicesets>
 </library>
-<library name="TPS7A0333PYCHR(volt_reg)">
-<description>&lt;LDO Voltage Regulators 200-mA, nanopower-IQ (200 nA), low-dropout (LDO) voltage regulator with enable 4-DSBGA -40 to 125&lt;/b&gt;&lt;p&gt;
+<library name="TLV73333PQDBVRQ1(volt_reg2)">
+<description>&lt;Automotive capacitor-free 300-mA LDO regulator with foldback current limit for portable devices&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="BGA4C35P2X2_64X64X40">
-<description>&lt;b&gt;YCH0004&lt;/b&gt;&lt;br&gt;
+<package name="SOT95P280X145-5N">
+<description>&lt;b&gt;DBV0005A SOT-23&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="A1" x="-0.175" y="0.175" dx="0.204" dy="0.204" layer="1" roundness="100"/>
-<smd name="A2" x="0.175" y="0.175" dx="0.204" dy="0.204" layer="1" roundness="100"/>
-<smd name="B1" x="-0.175" y="-0.175" dx="0.204" dy="0.204" layer="1" roundness="100"/>
-<smd name="B2" x="0.175" y="-0.175" dx="0.204" dy="0.204" layer="1" roundness="100"/>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.82" y1="0.82" x2="0.82" y2="0.82" width="0.05" layer="51"/>
-<wire x1="0.82" y1="0.82" x2="0.82" y2="-0.82" width="0.05" layer="51"/>
-<wire x1="0.82" y1="-0.82" x2="-0.82" y2="-0.82" width="0.05" layer="51"/>
-<wire x1="-0.82" y1="-0.82" x2="-0.82" y2="0.82" width="0.05" layer="51"/>
-<wire x1="-0.32" y1="0.32" x2="0.32" y2="0.32" width="0.1" layer="51"/>
-<wire x1="0.32" y1="0.32" x2="0.32" y2="-0.32" width="0.1" layer="51"/>
-<wire x1="0.32" y1="-0.32" x2="-0.32" y2="-0.32" width="0.1" layer="51"/>
-<wire x1="-0.32" y1="-0.32" x2="-0.32" y2="0.32" width="0.1" layer="51"/>
-<wire x1="-0.32" y1="0.16" x2="-0.16" y2="0.32" width="0.1" layer="51"/>
-<wire x1="-0.175" y1="0.627" x2="0.627" y2="0.627" width="0.2" layer="21"/>
-<wire x1="0.627" y1="0.627" x2="0.627" y2="-0.627" width="0.2" layer="21"/>
-<wire x1="0.627" y1="-0.627" x2="-0.627" y2="-0.627" width="0.2" layer="21"/>
-<wire x1="-0.627" y1="-0.627" x2="-0.627" y2="0.175" width="0.2" layer="21"/>
-<wire x1="-0.627" y1="0.175" x2="-0.175" y2="0.627" width="0.2" layer="21"/>
-<circle x="-0.627" y="0.627" radius="0.1" width="0.2" layer="25"/>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="TPS7A0333PYCHR">
+<symbol name="TLV73333PQDBVRQ1">
 <wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-5.08" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="IN" x="0" y="0" length="middle"/>
-<pin name="OUT" x="0" y="-2.54" length="middle"/>
-<pin name="EN" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="EN" x="0" y="-5.08" length="middle"/>
+<pin name="NC" x="25.4" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="OUT" x="25.4" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS7A0333PYCHR" prefix="IC">
-<description>&lt;b&gt;LDO Voltage Regulators 200-mA, nanopower-IQ (200 nA), low-dropout (LDO) voltage regulator with enable 4-DSBGA -40 to 125&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf-sep-wwe&amp;DCM=yes"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="TLV73333PQDBVRQ1" prefix="IC">
+<description>&lt;b&gt;Automotive capacitor-free 300-mA LDO regulator with foldback current limit for portable devices&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/TLV733P-Q1"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="TPS7A0333PYCHR" x="0" y="0"/>
+<gate name="G$1" symbol="TLV73333PQDBVRQ1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BGA4C35P2X2_64X64X40">
+<device name="" package="SOT95P280X145-5N">
 <connects>
-<connect gate="G$1" pin="EN" pad="B1"/>
-<connect gate="G$1" pin="GND" pad="B2"/>
-<connect gate="G$1" pin="IN" pad="A1"/>
-<connect gate="G$1" pin="OUT" pad="A2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="LDO Voltage Regulators 200-mA, nanopower-IQ (200 nA), low-dropout (LDO) voltage regulator with enable 4-DSBGA -40 to 125" constant="no"/>
-<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Automotive capacitor-free 300-mA LDO regulator with foldback current limit for portable devices" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPS7A0333PYCHR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TPS7A0333PYCHR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A0333PYCHR?qs=DRkmTr78QASt%252BMCkG4QYQg%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV73333PQDBVRQ1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV73333PQDBVRQ1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV73333PQDBVRQ1?qs=9r4v7xj2LnnYANXVL3PB4Q%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2863,9 +2865,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <part name="R5" library="RC0805JR-0710KL" deviceset="RC0805JR-0710KL" device="" value="10K"/>
 <part name="R11" library="RC0805JR-0710KL" deviceset="RC0805JR-0710KL" device="" value="10K"/>
 <part name="U$2" library="RBR1L30ATE25(scho_diode)" deviceset="RBR1L30ATE25" device=""/>
-<part name="IC3" library="TPS7A0333PYCHR(volt_reg)" deviceset="TPS7A0333PYCHR" device=""/>
-<part name="C5" library="GRM219R61H105KA73D(1u)" deviceset="GRM219R61H105KA73D" device=""/>
-<part name="C6" library="GRM219R61H105KA73D(1u)" deviceset="GRM219R61H105KA73D" device=""/>
+<part name="IC4" library="TLV73333PQDBVRQ1(volt_reg2)" deviceset="TLV73333PQDBVRQ1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3087,15 +3087,9 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <attribute name="NAME" x="-149.5044" y="141.1986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-150.1394" y="138.6586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="IC3" gate="G$1" x="-73.66" y="-45.72" smashed="yes">
-<attribute name="NAME" x="-67.31" y="-38.1" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-67.31" y="-40.64" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C5" gate="G$1" x="-81.28" y="-58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="-85.09" y="-54.61" size="1.778" layer="95" rot="R90" align="center-left"/>
-</instance>
-<instance part="C6" gate="G$1" x="-73.66" y="-68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="-72.39" y="-59.69" size="1.778" layer="95" rot="R90" align="center-left"/>
+<instance part="IC4" gate="G$1" x="-48.26" y="-33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="-54.61" y="-40.64" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-54.61" y="-38.1" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -3277,9 +3271,6 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <wire x1="-33.02" y1="-81.28" x2="-38.1" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-81.28" x2="-38.1" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-38.1" y="-48.26"/>
-<pinref part="IC3" gate="G$1" pin="GND"/>
-<wire x1="-48.26" y1="-48.26" x2="-43.18" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="-43.18" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="02"/>
@@ -3353,6 +3344,11 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <pinref part="JP3" gate="A" pin="7"/>
 <wire x1="147.32" y1="-17.78" x2="124.46" y2="-17.78" width="0.1524" layer="91"/>
 <label x="124.46" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<wire x1="-48.26" y1="-30.48" x2="-30.48" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-35.56" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -3508,14 +3504,14 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <label x="162.56" y="-50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="EN"/>
-<wire x1="-48.26" y1="-45.72" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-45.72" y="-45.72" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="EN"/>
+<wire x1="-48.26" y1="-27.94" x2="-30.48" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-35.56" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-81.28" y1="-58.42" x2="-81.28" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-81.28" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC4" gate="G$1" pin="IN"/>
+<wire x1="-48.26" y1="-33.02" x2="-30.48" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-35.56" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
@@ -4015,23 +4011,10 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/tps7a03?HQS=ti-null-null-sf-df-pf
 <net name="N$4" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="-73.66" y1="-83.82" x2="-33.02" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="-68.58" x2="-73.66" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="-48.26" x2="-73.66" y2="-55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="IN"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="-45.72" x2="-81.28" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-83.82" x2="-33.02" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<wire x1="-73.66" y1="-30.48" x2="-81.28" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-30.48" x2="-81.28" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

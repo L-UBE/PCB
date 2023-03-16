@@ -3088,6 +3088,11 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="157.48" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <label x="165.1" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="45.72" y1="-71.12" x2="25.4" y2="-71.12" width="0.1524" layer="91"/>
+<label x="25.4" y="-71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
@@ -3590,11 +3595,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="IC1" gate="G$1" pin="PC4"/>
 <wire x1="40.64" y1="-7.62" x2="40.64" y2="-25.4" width="0.1524" layer="91"/>
 <label x="40.64" y="-25.4" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="45.72" y1="-71.12" x2="25.4" y2="-71.12" width="0.1524" layer="91"/>
-<label x="25.4" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC5" class="0">

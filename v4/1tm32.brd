@@ -1797,9 +1797,9 @@ design rules under a new name.</description>
 <via x="20.701" y="49.403" extent="1-16" drill="0.35"/>
 <via x="26.035" y="49.403" extent="1-16" drill="0.35"/>
 <via x="30.861" y="49.403" extent="1-16" drill="0.35"/>
-<wire x1="8.268" y1="15.909" x2="8.268" y2="15.126" width="0.2032" layer="1"/>
-<wire x1="8.268" y1="15.126" x2="8.128" y2="14.986" width="0.2032" layer="1"/>
-<via x="8.128" y="14.986" extent="1-16" drill="0.35"/>
+<wire x1="8.268" y1="15.909" x2="8.268" y2="14.872" width="0.2032" layer="1"/>
+<wire x1="8.268" y1="14.872" x2="8.128" y2="14.732" width="0.2032" layer="1"/>
+<via x="8.128" y="14.732" extent="1-16" drill="0.35"/>
 <wire x1="3.81" y1="24.892" x2="3.337" y2="24.892" width="0.2032" layer="1"/>
 <wire x1="3.337" y1="24.892" x2="2.211" y2="26.018" width="0.2032" layer="1"/>
 </signal>

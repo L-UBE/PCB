@@ -1213,7 +1213,7 @@ by exp-lbrs.ulp</description>
 <attribute name="PACKAGE" value="HC-49/US Abracon LLC" x="31.228" y="52.511" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="31.228" y="52.511" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC1" library="STM32L412RBT6P" package="QFP50P1200X1200X160-64N" value="STM32L412RBT6P" x="26.193" y="25.744" smashed="yes">
+<element name="IC1" library="STM32L412RBT6P" package="QFP50P1200X1200X160-64N" value="STM32L412RBT6" x="26.193" y="25.744" smashed="yes">
 <attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU" x="26.193" y="25.744" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.6mm" x="26.193" y="25.744" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="26.193" y="25.744" size="1.778" layer="27" display="off"/>
@@ -1410,15 +1410,6 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="603-RC0805FR-131KL" x="34.412" y="39.0882" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RC0805FR-131KL?qs=m6lXFsvg5e0qJLgmV7HC3Q%3D%3D" x="34.412" y="39.0882" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="34.012" y="36.9882" size="0.6096" layer="25" align="center"/>
-</element>
-<element name="R10" library="RC0805JR-0710KL" package="RESC2012X60N" value="10K" x="19.5786" y="40.615" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="YAGEO - RC0805JR-0710KL - SMD Chip Resistor, 0805 [2012 Metric], 10 kohm, RC Series, 150 V, Thick Film, 125 mW" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0805JR-0710KL" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RC0805JR-0710KL" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RC0805JR-0710KL?qs=ZFGQJeMQzF5q%2Fp77vM%2FrVQ%3D%3D" x="19.5786" y="40.615" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="18.1786" y="39.715" size="0.6096" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R1" library="RC0805FR-131KL" package="RESC2012X60N" value="1K" x="38.977" y="43.338" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1 kOhms 250 mW 0805 1%" x="38.977" y="43.338" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1857,7 +1848,6 @@ by exp-lbrs.ulp</description>
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="R6" pad="2"/>
-<contactref element="R10" pad="2"/>
 <wire x1="34.798" y1="5.2" x2="34.798" y2="5.327" width="0.2032" layer="1"/>
 <wire x1="23.443" y1="20.006" x2="23.443" y2="16.019" width="0.2032" layer="1"/>
 <wire x1="22.873" y1="15.449" x2="22.873" y2="14.668" width="0.2032" layer="1"/>
@@ -1902,9 +1892,6 @@ by exp-lbrs.ulp</description>
 <wire x1="37.227" y1="32.143" x2="37.253" y2="32.117" width="0.2032" layer="1"/>
 <wire x1="20.193" y1="47.117" x2="18.415" y2="47.117" width="0.2032" layer="1"/>
 <via x="18.415" y="47.117" extent="1-16" drill="0.35"/>
-<wire x1="19.5786" y1="39.665" x2="18.923" y2="39.0094" width="0.2032" layer="1"/>
-<wire x1="18.923" y1="39.0094" x2="18.923" y2="38.481" width="0.2032" layer="1"/>
-<via x="18.923" y="38.481" extent="1-16" drill="0.35"/>
 <wire x1="37.253" y1="32.117" x2="38.721" y2="32.117" width="0.2032" layer="1"/>
 <wire x1="38.721" y1="32.117" x2="38.862" y2="32.258" width="0.2032" layer="1"/>
 <via x="38.862" y="32.258" extent="1-16" drill="0.35"/>
@@ -1984,24 +1971,19 @@ by exp-lbrs.ulp</description>
 <signal name="NRST">
 <contactref element="IC1" pad="7"/>
 <contactref element="C27" pad="2"/>
-<contactref element="R10" pad="1"/>
 <contactref element="JP3" pad="2"/>
 <via x="21.844" y="26.4888" extent="1-16" drill="0.35"/>
 <wire x1="20.455" y1="26.494" x2="20.4602" y2="26.4888" width="0.2032" layer="1"/>
 <wire x1="21.844" y1="26.4888" x2="20.4602" y2="26.4888" width="0.2032" layer="1"/>
 <wire x1="21.844" y1="35.179" x2="20.701" y2="36.322" width="0.2032" layer="16"/>
-<wire x1="20.193" y1="38.354" x2="20.701" y2="37.846" width="0.2032" layer="16"/>
-<wire x1="20.701" y1="37.846" x2="20.701" y2="36.322" width="0.2032" layer="16"/>
+<wire x1="20.3454" y1="38.3032" x2="20.701" y2="37.9476" width="0.2032" layer="16"/>
+<wire x1="20.701" y1="37.9476" x2="20.701" y2="36.322" width="0.2032" layer="16"/>
 <wire x1="21.844" y1="35.179" x2="21.844" y2="26.4888" width="0.2032" layer="16"/>
-<wire x1="19.812" y1="41.565" x2="19.5786" y2="41.565" width="0.2032" layer="1"/>
-<via x="20.193" y="38.354" extent="1-16" drill="0.35"/>
-<wire x1="20.193" y1="38.354" x2="20.7212" y2="38.8822" width="0.2032" layer="1"/>
-<wire x1="20.7212" y1="40.3562" x2="20.853" y2="40.488" width="0.2032" layer="1"/>
-<wire x1="20.853" y1="40.488" x2="21.936" y2="41.571" width="0.2032" layer="1"/>
-<wire x1="20.7212" y1="38.8822" x2="20.7212" y2="39.5224" width="0.2032" layer="1"/>
+<via x="20.3454" y="38.3032" extent="1-16" drill="0.35"/>
+<wire x1="20.3454" y1="38.3032" x2="20.7212" y2="38.679" width="0.2032" layer="1"/>
+<wire x1="20.7212" y1="40.3562" x2="21.936" y2="41.571" width="0.2032" layer="1"/>
+<wire x1="20.7212" y1="38.679" x2="20.7212" y2="39.5224" width="0.2032" layer="1"/>
 <wire x1="20.7212" y1="39.5224" x2="20.7212" y2="40.3562" width="0.2032" layer="1"/>
-<wire x1="20.853" y1="40.488" x2="19.812" y2="41.529" width="0.2032" layer="1"/>
-<wire x1="19.812" y1="41.529" x2="19.812" y2="41.565" width="0.2032" layer="1"/>
 <wire x1="20.7212" y1="39.5224" x2="21.875" y2="40.6762" width="0.2032" layer="1"/>
 <contactref element="S1" pad="2"/>
 <contactref element="S1" pad="1"/>

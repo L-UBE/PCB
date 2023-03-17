@@ -2243,7 +2243,7 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="ce-capstone" deviceset="10118192-0001LF" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
-<part name="IC1" library="STM32L412RBT6P" deviceset="STM32L412RBT6P" device=""/>
+<part name="IC1" library="STM32L412RBT6P" deviceset="STM32L412RBT6P" device="" value="STM32L412RBT6"/>
 <part name="C1" library="GRM219R61H105KA73D(1u)" deviceset="GRM219R61H105KA73D" device="" value="1u"/>
 <part name="C12" library="GRM219R61H105KA73D(1u)" deviceset="GRM219R61H105KA73D" device="" value="1u"/>
 <part name="C23" library="GRM219R61H105KA73D(1u)" deviceset="GRM219R61H105KA73D" device="" value="1u"/>
@@ -2265,7 +2265,6 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <part name="R4" library="RC0805FR-10220RL" deviceset="RC0805FR-10220RL" device="" value="220"/>
 <part name="R6" library="RC0805FR-131KL" deviceset="RC0805FR-131KL" device="" value="1K"/>
 <part name="R7" library="RC0805FR-131KL" deviceset="RC0805FR-131KL" device="" value="1K"/>
-<part name="R10" library="RC0805JR-0710KL" deviceset="RC0805JR-0710KL" device="" value="10K"/>
 <part name="R1" library="RC0805FR-131KL" deviceset="RC0805FR-131KL" device="" value="1K"/>
 <part name="U$3" library="ce-capstone" deviceset="SML-P12VTT86" device="" value="LED_R"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2419,10 +2418,6 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <instance part="R7" gate="G$1" x="33.02" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.67" y="107.95" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="29.21" y="107.95" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R10" gate="G$1" x="162.56" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="156.21" y="130.81" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="158.75" y="130.81" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="73.66" y="-7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.31" y="6.35" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -2771,9 +2766,8 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <wire x1="-142.24" y1="22.86" x2="-121.92" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="134.62" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
 <label x="162.56" y="134.62" size="1.778" layer="95" rot="R90"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="144.78" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VBAT"/>
@@ -2884,7 +2878,6 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <label x="127" y="116.84" size="1.778" layer="95"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="116.84" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="116.84" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>

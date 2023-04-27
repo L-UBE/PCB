@@ -257,9 +257,9 @@ Christine Wan</text>
 <text x="48.006" y="26.416" size="0.6096" layer="21" rot="R270">GND</text>
 <text x="42.037" y="26.289" size="0.6096" layer="21" rot="R270">GND</text>
 <text x="21.844" y="48.514" size="0.6096" layer="21">GND</text>
-<text x="2.032" y="24.0284" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="7.7724" y="19.7104" size="0.6096" layer="21" rot="R180">ADC_8</text>
-<text x="7.8994" y="21.3614" size="0.6096" layer="21" rot="R90">ADC_9</text>
+<text x="1.9812" y="19.9898" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="7.4422" y="21.9202" size="0.6096" layer="21" rot="R270">PA3</text>
+<text x="7.9502" y="22.8346" size="0.6096" layer="21" rot="R90">PA4</text>
 <text x="24.257" y="46.482" size="0.6096" layer="21" rot="R270">UART1</text>
 <text x="18.542" y="42.545" size="0.6096" layer="21">RX</text>
 <text x="22.098" y="42.545" size="0.6096" layer="21">TX</text>
@@ -276,6 +276,11 @@ Christine Wan</text>
 <text x="41.8846" y="42.9514" size="0.6096" layer="21" rot="R270">T1_3</text>
 <text x="7.62" y="36.7284" size="0.6096" layer="21" rot="R270">T1_4</text>
 <text x="8.1534" y="26.797" size="0.6096" layer="21" rot="R90">T1_2</text>
+<text x="10.8458" y="1.7526" size="0.6096" layer="21">PB13</text>
+<text x="13.589" y="1.6764" size="0.6096" layer="21">PB14</text>
+<text x="11.0998" y="7.7216" size="0.6096" layer="21">PC0</text>
+<text x="13.843" y="7.6962" size="0.6096" layer="21">PC1</text>
+<text x="16.0782" y="46.7106" size="0.8128" layer="21" rot="R180">CUBE</text>
 </plain>
 <libraries>
 <library name="ce-capstone">
@@ -2162,11 +2167,12 @@ by exp-lbrs.ulp</description>
 <wire x1="30.8374" y1="26.494" x2="30.0736" y2="25.7302" width="0.2032" layer="1"/>
 <via x="30.0736" y="25.7302" extent="1-16" drill="0.35"/>
 <wire x1="30.0736" y1="25.7302" x2="27.8892" y2="23.5458" width="0.2032" layer="16"/>
-<wire x1="10.1854" y1="23.5458" x2="7.5946" y2="26.1366" width="0.2032" layer="16"/>
+<wire x1="9.5504" y1="23.5458" x2="7.5946" y2="25.5016" width="0.2032" layer="16"/>
+<wire x1="7.5946" y1="25.5016" x2="7.5946" y2="26.1366" width="0.2032" layer="16"/>
 <via x="7.5946" y="26.1366" extent="1-16" drill="0.35"/>
 <wire x1="7.5946" y1="26.1366" x2="7.3406" y2="26.1366" width="0.2032" layer="1"/>
 <wire x1="7.3406" y1="26.1366" x2="5.9182" y2="27.559" width="0.2032" layer="1"/>
-<wire x1="27.8892" y1="23.5458" x2="10.1854" y2="23.5458" width="0.2032" layer="16"/>
+<wire x1="27.8892" y1="23.5458" x2="9.5504" y2="23.5458" width="0.2032" layer="16"/>
 </signal>
 <signal name="TIM1_CH1">
 <contactref element="IC1" pad="41"/>

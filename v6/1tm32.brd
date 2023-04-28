@@ -276,8 +276,8 @@ Christine Wan</text>
 <text x="41.8846" y="42.9514" size="0.6096" layer="21" rot="R270">T1_3</text>
 <text x="7.62" y="36.7284" size="0.6096" layer="21" rot="R270">T1_4</text>
 <text x="8.1534" y="26.797" size="0.6096" layer="21" rot="R90">T1_2</text>
-<text x="10.8458" y="1.7526" size="0.6096" layer="21">PB13</text>
-<text x="13.589" y="1.6764" size="0.6096" layer="21">PB14</text>
+<text x="13.4874" y="1.7272" size="0.6096" layer="21">PB13</text>
+<text x="10.922" y="1.7018" size="0.6096" layer="21">PB14</text>
 <text x="11.0998" y="7.7216" size="0.6096" layer="21">PC0</text>
 <text x="13.843" y="7.6962" size="0.6096" layer="21">PC1</text>
 <text x="16.0782" y="46.7106" size="0.8128" layer="21" rot="R180">CUBE</text>
@@ -2112,8 +2112,8 @@ by exp-lbrs.ulp</description>
 <signal name="USART3_TX">
 <contactref element="IC1" pad="51"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="28.943" y1="31.482" x2="28.943" y2="34.0992" width="0.2032" layer="1"/>
-<wire x1="28.943" y1="34.0992" x2="29.464" y2="34.6202" width="0.2032" layer="1"/>
+<wire x1="28.943" y1="31.482" x2="27.6344" y2="32.7906" width="0.2032" layer="1"/>
+<wire x1="27.6344" y1="32.7906" x2="29.464" y2="34.6202" width="0.2032" layer="1"/>
 <via x="29.464" y="34.6202" extent="1-16" drill="0.35"/>
 <wire x1="29.464" y1="34.6202" x2="29.464" y2="42.037" width="0.2032" layer="16"/>
 <wire x1="29.464" y1="42.037" x2="30.226" y2="42.799" width="0.2032" layer="16"/>

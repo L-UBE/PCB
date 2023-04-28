@@ -3081,9 +3081,31 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <label x="76.2" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="53.34" y1="-53.34" x2="33.02" y2="-53.34" width="0.1524" layer="91"/>
-<label x="33.02" y="-53.34" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="45.72" y1="-68.58" x2="25.4" y2="-68.58" width="0.1524" layer="91"/>
+<label x="25.4" y="-68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="45.72" y1="-73.66" x2="25.4" y2="-73.66" width="0.1524" layer="91"/>
+<label x="25.4" y="-73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="45.72" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
+<label x="25.4" y="-78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="53.34" y1="-55.88" x2="33.02" y2="-55.88" width="0.1524" layer="91"/>
+<label x="33.02" y="-55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SDA" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB14"/>
+<wire x1="68.58" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
+<label x="76.2" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -3100,32 +3122,10 @@ Source: &lt;a href="https://www.mouser.ca/datasheet/2/447/UPY_NP0X5R_01005_4V_to
 <wire x1="45.72" y1="-76.2" x2="25.4" y2="-76.2" width="0.1524" layer="91"/>
 <label x="25.4" y="-76.2" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="I2C2_SDA" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB14"/>
-<wire x1="68.58" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<label x="76.2" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="53.34" y1="-55.88" x2="33.02" y2="-55.88" width="0.1524" layer="91"/>
-<label x="33.02" y="-55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="45.72" y1="-68.58" x2="25.4" y2="-68.58" width="0.1524" layer="91"/>
-<label x="25.4" y="-68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="45.72" y1="-73.66" x2="25.4" y2="-73.66" width="0.1524" layer="91"/>
-<label x="25.4" y="-73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="11"/>
-<wire x1="45.72" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
-<label x="25.4" y="-78.74" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="53.34" y1="-53.34" x2="33.02" y2="-53.34" width="0.1524" layer="91"/>
+<label x="33.02" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TIM15_CH2" class="0">

@@ -15,3 +15,5 @@ v5 - changed parts for JLC
 v6 - third iteration of pcb, for cube
 
 v7 - third iteration of pcb, for glove
+
+v8 - new pcb for tri-state buffers
